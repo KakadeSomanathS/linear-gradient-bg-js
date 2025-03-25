@@ -38,7 +38,6 @@ window.onload = () => {
   if (retrieveData) {
     const data = JSON.parse(retrieveData);
     console.log(data);
-
     const { red1, green1, blue1, red2, green2, blue2 } = data;
     document.body.style.background = `linear-gradient(rgb(${red1},${green1},${blue1}),rgb(${red2},${green2},${blue2}))`;
   }
